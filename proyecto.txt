@@ -1,0 +1,27 @@
+.
+├── favorito
+│   ├── favorito.html
+│   ├── script.js
+│   └── styles.css
+├── img
+│   ├── p1
+│   ├── p2
+│   └── p3
+├── imgs
+│   ├── imgs.html
+│   ├── script.js
+│   └── styles.css
+├── index.html
+├── m-imgs
+│   ├── m-imgs.html
+│   ├── script.js
+│   └── styles.css
+├── m-pdf
+│   ├── m-pdf.html
+│   ├── script.js
+│   └── styles.css
+├── node_modules
+├── package-lock.json
+├── package.json
+├── server.js
+└── styles.css
