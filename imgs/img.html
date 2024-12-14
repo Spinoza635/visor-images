@@ -2,14 +2,14 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">    <title>Galería de Imágenes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">    <title>Imagen</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body onload="loadFullImage()">
     <!-- Sidebar -->
     <div class="sidebar">
         <button onclick="location.href='../index.html'">Inicio</button>
-        <button onclick="showImages()">IMG</button>
+        <button onclick="location.href='imgs.html'">IMG</button>
         <button onclick="location.href='../m-pdf/m-pdf.html'">M PDF</button>
         <button onclick="location.href='../m-imgs/m-imgs.html'">M IMG</button>
         <button onclick="location.href='../favorito/favorito.html'">Favorito</button>
@@ -18,15 +18,6 @@
     <!-- Gallery -->
     <div class="gallery-container">
         <div id="gallery"></div>
-        <div class="pagination">
-            <button id="prev" onclick="prevPage()">Anterior</button>
-            <span id="page-info"></span>
-            <button id="next" onclick="nextPage()">Siguiente</button>
-            <div class="page-input-container">
-                <input type="number" id="page-input" min="1" placeholder="Página">
-                <button onclick="goToPage()">Ir</button>
-            </div>
-        </div>
     </div>
     <script src="script.js"></script>
 </body>
